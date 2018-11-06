@@ -42,13 +42,13 @@ average = computeAverageForClasses(data)
 print('Average:')
 print(average)
 
-# missclasified
-missclasified = countMisclassified(data)
-print('Missclasified:')
-print(len(missclasified))
+# misclassified
+misclasified = countMisclassified(data)
+print('Misclassified:')
+print(len(misclasified))
 
 # file write
-write_data = [ f'{m[0]}\t{m[1]}' for m in missclasified ]
+write_data = [ f'{m[0]}\t{m[1]}' for m in misclasified ]
 
 f = open("Misclassified.txt", "w")
 f.write('\n'.join(write_data))
