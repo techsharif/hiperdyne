@@ -1,0 +1,11 @@
+id,toothed,hair,breathes,legs,species
+0,True,True,True,True,Mammal
+1,True,True,True,True,Mammal
+2,True,False,True,False,Reptile
+3,False,True,True,True,Mammal
+4,True,True,True,True,Mammal
+5,True,True,True,True,Mammal
+6,True,False,False,False,Reptile
+7,True,False,True,False,Reptile
+8,True,True,True,True,Mammal
+9,False,False,True,True,Reptile
